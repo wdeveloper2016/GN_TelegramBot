@@ -1,0 +1,16 @@
+{
+  "name": "bot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0",
+    "sentiment": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.2"
+  }
+}
